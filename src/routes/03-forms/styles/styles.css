@@ -17,9 +17,17 @@ button {
 }
 
 span, .error-message {
-    color: red;
+    color: rgb(206, 63, 63);
 }
 
 .has-error {
     border: 1px solid red;
+}
+
+label {
+  margin-top: 20px;
+}
+
+span {
+  margin-top: 5px;
 }
