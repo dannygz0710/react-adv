@@ -8,11 +8,14 @@ import {
 import logo from '../logo.svg';
 
 import { 
-  RegisterPage,
+  DinamicsForms,
+  FormikAbstract, 
   FormikBasicPage,
-  FormikYupPage,
   FormikComponents,
-  FormikAbstract } from './03-forms/pages';
+  FormikYupPage,
+  RegisterFormikPage, 
+  RegisterPage,
+} from './03-forms/pages';
 
   
 
@@ -27,6 +30,9 @@ export const Navigation = () => {
               <NavLink to="/register" activeClassName="nav-active" exact>Register Page</NavLink>
             </li>
             <li>
+              <NavLink to="/formik-register" activeClassName="nav-active" exact>Register Formik Page</NavLink>
+            </li>
+            <li>
               <NavLink to="/formik-basic" activeClassName="nav-active" exact>Formik Basic</NavLink>
             </li>
             <li>
@@ -37,6 +43,9 @@ export const Navigation = () => {
             </li>
             <li>
               <NavLink to="/formik-abstractation" activeClassName="nav-active" exact>Formik Abstractation</NavLink>
+            </li>
+            <li>
+              <NavLink to="/dinamic-form" activeClassName="nav-active" exact>Dinamic Forms</NavLink>
             </li>
           </ul>
         </nav>
@@ -61,6 +70,15 @@ export const Navigation = () => {
           </Route>
           <Route path="/register">
             <RegisterPage />
+          </Route>
+          <Route path="/formik-register">
+            <RegisterFormikPage />
+          </Route>
+          <Route path="/dinamic-form">
+            <DinamicsForms />
+          </Route>
+          <Route path="/">
+            <h1>Home</h1>
           </Route>
         </Switch>
       </div>

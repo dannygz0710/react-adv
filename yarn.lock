@@ -12546,6 +12546,7 @@ __metadata:
     formik: ^2.2.9
     react: ^17.0.2
     react-dom: ^17.0.2
+    react-error-overlay: 6.0.9
     react-router-dom: ^5.3.0
     react-scripts: 4.0.3
     typescript: ^4.1.2
@@ -12596,6 +12597,13 @@ __metadata:
   peerDependencies:
     react: 17.0.2
   checksum: 1c1eaa3bca7c7228d24b70932e3d7c99e70d1d04e13bb0843bbf321582bc25d7961d6b8a6978a58a598af2af496d1cedcfb1bf65f6b0960a0a8161cb8dab743c
+  languageName: node
+  linkType: hard
+
+"react-error-overlay@npm:6.0.9":
+  version: 6.0.9
+  resolution: "react-error-overlay@npm:6.0.9"
+  checksum: 695853bc885e798008a00c10d8d94e5ac91626e8130802fea37345f9c037f41b80104345db2ee87f225feb4a4ef71b0df572b17c378a6d397b6815f6d4a84293
   languageName: node
   linkType: hard
 
