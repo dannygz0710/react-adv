@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Product, ProductInCar } from "../interfaces/interfaces";
-import { products } from "../data/products";
+import products from "../data/products";
 
 export const useShoppingCart = () => {
 

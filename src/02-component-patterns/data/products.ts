@@ -1,6 +1,7 @@
 import { Product } from '../interfaces/interfaces';
 
 
+
 const product1 = {
     id: "1",
     title: "Coffe-Mug-Card",
@@ -13,4 +14,5 @@ const product1 = {
     img: "./coffee-mug2.png",
   };
   
- export const products: Product[] = [ product1, product2 ];
+ const products: Product[] = [ product1, product2 ];
+export default products;
